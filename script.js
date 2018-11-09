@@ -1,23 +1,14 @@
 
-//write first method
-function sleepIn(x,y) {
-    return x;
-}
-
-//write second method
-function nextOne(param1, param2) {
-    return param1;
-}
 
 //function runs on click and outputs test cases you create to page
 
-}function tester() {
+function tester() {
     document.getElementById("output").innerHTML += sleepIn(true, false);
     document.getElementById("output").innerHTML += nextOne(true, false);
 //test third method, etc
 
 
-    11.
+
     function firstLast6(a){
         var last =a.length-1;
         if(a[0]==6){
@@ -28,7 +19,7 @@ function nextOne(param1, param2) {
         }
         return false;
     }
-    12.
+
     function has23(x){
         if(x[0]==2 || x[0]==3){
             return true;
@@ -39,26 +30,26 @@ function nextOne(param1, param2) {
         return false;
     }
 
-    13.
+
     function fix23(x){
         if(x[0]==2 && x[1]==3){
             x[1]=0;
             return x;
         }
-        if(x[1]==2 && x[2]==3)[
+        if(x[1]==2 && x[2]==3){
             x[2]=0;
         return x;
     }
 }
 
-14.
+
 function countYZ(x)
 {
     var count=0;
     x.split(" ");
     for(i=0; i<2; i++){
 
-        if(x[i].endsWith("y"){
+        if(x[i].endsWith("y")){
             count = count+1;
         }
     }
@@ -84,7 +75,7 @@ function countYZ(str)
     return count;
 }
 
-15.
+
 function endOther(x, y){
     x=x.toLowerCase();
     y=y.toLowerCase();
@@ -97,7 +88,6 @@ function endOther(x, y){
 }
 
 
-16.
 function starOut(x){
     var newString = ""
     for(var i =0; i<x.length; i++){
@@ -110,7 +100,7 @@ function starOut(x){
 
 
 
-17.
+
 function getSandwich(x){
     var y = ""
     var firstIndex= x.indexOf("bread")
@@ -125,7 +115,7 @@ function getSandwich(x){
     return(y);
 }
 
-18.
+
 function canBalance(x){
     var sum1 = 0;
     var sum2 = 0;
@@ -141,7 +131,7 @@ function canBalance(x){
     return false;
 }
 
-19.
+
 
 
 function countClumps(x){
@@ -158,9 +148,9 @@ function countClumps(x){
             inClump = true;
         } else {
             if(inClump==true){
-                ++clumps;
+                clumps++;
             }
-        in
+
         }
 
         last = x[i];
@@ -172,8 +162,6 @@ function countClumps(x){
 
     return clumps;
 }
-
-20.
 
 function evenlySpaced(a,b,c){
 
